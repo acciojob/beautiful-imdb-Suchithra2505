@@ -1,2 +1,25 @@
 
 /* Your CSS Code here. */
+@media screen, (min-width : 480px) and (max-width : 768px) {
+  .moviePic{
+     height:300px;
+	  width:300px;
+	  opacity:.85;
+	  background-color:darkgreen;
+	  border:solid green ;
+	  border-radius:10px;
+  }
+}
+.moviePic > img{
+	height: 300px;
+	width: 300px;
+}
+.movieDetail>p{
+	position:relative;
+	display:flex;
+	justify-content:center;
+	width:300px;
+	text-align:center;
+	font-size:10px;
+		
+}
