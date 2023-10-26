@@ -10,11 +10,11 @@
 	  border-radius:10px;
   }
 }
-.moviePic > img{
+.moviePic > .i1{
 	height: 300px;
 	width: 300px;
 }
-.movieDetail>p{
+.movieDetail>.p1{
 	position:relative;
 	display:flex;
 	justify-content:center;
