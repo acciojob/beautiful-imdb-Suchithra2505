@@ -1,7 +1,7 @@
 
 /* Your CSS Code here. */
 @media screen, (min-width : 480px) and (max-width : 768px) {
-  .moviePic{
+  .movie{
      height:300px;
 	  width:300px;
 	  opacity:.85;
@@ -10,11 +10,11 @@
 	  border-radius:10px;
   }
 }
-.moviePic > .i1{
+.moviePic {
 	height: 300px;
 	width: 300px;
 }
-.movieDetail>.p1{
+.movieDetail{
 	position:relative;
 	display:flex;
 	justify-content:center;
